@@ -1,0 +1,8 @@
+This file is an example.
+Cart
+Dog
+Echo
+Foxtrot
+India
+This statement was appended to the text file
+HelloWorld

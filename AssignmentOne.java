@@ -16,13 +16,14 @@ public class AssignmentOne {
                 }
             }
         } catch (Exception e) {
-            System.err.print(e);
+            System.out.println("Invalid Path, try again.");
         }
     }
 
-
+    // Takes a directory path from the command line and prints the names of the files in the directory
+    // If a subdirectory exists, prints the filenames and repeats for each subdirectory
     public static void main(String [] args) {
-        Path dir = Paths.get("C:/Users/Matthew/Documents");
+        Path dir = Paths.get(args[0]);
         
         listDirectory(dir);
     }
